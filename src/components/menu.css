@@ -1,0 +1,32 @@
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100%;
+    padding: 0px 12px;
+    font-weight: 700;
+    letter-spacing: .2px;
+    font-family: Arial;
+    font-size: 1em;
+    transform: translateX(-100%); /* Ocultar el menú por defecto */
+    transition: transform 0.3s ease-in-out;
+}   
+
+.menu.open {
+    transform: translateX(0); /* Mostrar el menú cuando isOpen es true */
+  }
+
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.menu li{
+    padding: 14px 0;
+}
+
+.menu li:hover{
+   color: #fa626b;
+}

@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.header-custom{
+  background-image: linear-gradient(to right,rgb(233, 136, 17) 0%, rgb(255, 167, 5) 100%);
+  min-height: 9vh;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+
+.menu-icon{
+  font-size: 1.5em;
+  color:rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.user-name{
+  text-align: right;
+  color: black;
+}
