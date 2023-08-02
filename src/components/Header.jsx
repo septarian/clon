@@ -9,13 +9,13 @@ import {} from '@fortawesome/fontawesome-svg-core'
 function Header() {
     return(
 
-    <header className="header-custom">   
+    <header className="header-custom fix">   
 
-    <div className="margin-menu">   
+    <div className="">   
             <FontAwesomeIcon icon={faBars} className='menu-icon'/>
             <FontAwesomeIcon icon={faExpand} className='menu-icon'/>
     </div>
-    <a> Erick Fernando Mora Carbajal</a>
+    <a style={{paddingRight: 30 + 'px'}}> Erick Fernando Mora Carbajal</a>
 
     </header>
 

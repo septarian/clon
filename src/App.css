@@ -1,3 +1,10 @@
+html{box-sizing:border-box}
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+
+html
+
 .App {
   text-align: center;
 }
@@ -38,25 +45,138 @@
 }
 
 .header-custom{
-  background-image: linear-gradient(to right,rgb(233, 136, 17) 0%, rgb(255, 167, 5) 100%);
+  background-image: linear-gradient(to right,rgb(199, 111, 5) 0%, rgb(255, 167, 5) 100%);
   min-height: 9vh;
   display: flex;
   justify-content:space-between;
   align-items: center;
-  padding-right: 20px;
+  z-index:2;
 }
 
-
-.menu-icon{
-  font-size: 1.5em;
-  color:rgb(255, 255, 255);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 1em;
-  padding-right: 1em;
+.fix{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .user-name{
   text-align: right;
   color: black;
 }
+
+.body{
+  background-color: #f4f5fa;
+  min-height: 100em;
+  margin-top: 60px;
+}
+
+.body-head{
+  background-image: linear-gradient(to right,rgb(199, 111, 5) 0%, rgb(255, 167, 5) 100%);
+  min-height: 9vh;
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  top:0;
+  left:0;
+  padding-left: 30px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+}
+
+.wrap{
+  padding: 4.2em;
+  position: relative;
+}
+
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.card{
+  margin-bottom: 1.875rem;
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 115.3px;
+  border-radius: 20px;
+  box-shadow: 0 1px 15px 1px rgba(68, 61, 124, 0.034);
+  padding: 1.5em;
+}
+
+.card-body{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: flex;
+}
+
+.date{
+  line-height: 1.45;
+  font-size: .8rem;
+  display: inline-block;
+  width: 40%;
+  padding: 0.75rem 1.25rem;
+  margin-right: 20px; 
+}
+
+.button{
+  width: 20%;
+  height: 3em;
+  background-color: black;
+  color:white;
+  box-shadow: 0 1px 20px 1px rgba(105,103,206,.6);
+  border: none;
+  border-radius: 5px;
+}
+
+.texto-grafica{
+  margin-top: -20px;
+}
+
+.cake-card{
+  margin-bottom: 1.875rem;
+  position:relative;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 1px 15px 1px rgba(68, 61, 124, 0.034);
+  padding: 1.5em;
+  height: 100%;
+  display: inline-block;
+}
+
+.grafica{
+  margin-bottom: 1.875rem;
+  position:relative;
+  background-color: white;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 1px 15px 1px rgba(68, 61, 124, 0.034);
+  padding: 1.5em;
+  height: 100%;
+  display: inline-block;
+}
+
+
+.gra{
+  display: flex;
+  justify-content: space-between;
+}
+
+.grafica2{
+  margin-bottom: 1.875rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 1px 15px 1px rgba(68, 61, 124, 0.034);
+  padding: 1.5em;
+  height: auto;
+}
+
+.graficos-tamaño{
+  width: 100%;
+}
+
