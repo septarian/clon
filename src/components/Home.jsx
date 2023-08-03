@@ -9,10 +9,10 @@ import cilindroMes from '../imagenes/cilindros_mes.png'
 import ventaUnidad from '../imagenes/venta_unidad.png'
 import cilindroUnidad from '../imagenes/cilindro_unidad.png'
 import ventaAgua from '../imagenes/venta_agua.png'
+import aguaUnidad from '../imagenes/agua_unidad.png'
 
 function Home() {
     return(
-
 
     <div className='body'>   
         <div className='wrap'>
@@ -22,6 +22,7 @@ function Home() {
             </div> 
 
             <div className='row'>
+
                 <div className='card'>
                     <form className='card-body'>
                         <input type="date" className='date' id="fechaInicio" name="fechaInicio"></input>
@@ -67,12 +68,17 @@ function Home() {
                     <img src={ventaAgua} alt='venta de agua por mes' style={{width: 100 + "%"}}/>
                 </div>
 
+                <div className='cake-card'>
+                    <div className='texto-grafica'>
+                        <h4>Venta de agua por unidad</h4>
+                    </div>
+                    <img src={aguaUnidad}></img>
+                </div>
 
             </div>
 
         </div>
     </div>
-
 
     );
 }

@@ -67,7 +67,7 @@ html
 
 .body{
   background-color: #f4f5fa;
-  min-height: 100em;
+  height: auto;
   margin-top: 60px;
 }
 
